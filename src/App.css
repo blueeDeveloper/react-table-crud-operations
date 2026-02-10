@@ -1,0 +1,93 @@
+.page-container {
+  height: 100vh;
+  padding: 20px 40px;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+
+.table-row {
+  display: flex;
+  border-bottom: 1px solid grey;
+  padding: 12px;
+  align-items: center;
+}
+
+.table-header {
+  font-weight: bold;
+  border-bottom: 2px solid grey;
+}
+
+.cell {
+  flex: 1
+}
+
+.cellActions {
+  display: flex;
+  flex: 0 0  160px;
+  justify-content: flex-end;
+}
+
+.btn-edit {
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  background-color: rgb(244, 182, 66);
+  border: 1px solid rgb(244, 182, 66);
+}
+.btn-delete {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: rgb(237, 124, 124);
+  border: 1px solid rgb(247, 93, 93)
+}
+
+.modal-container {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  z-index: 1000;
+  background-color: rgba(0,0,0,0.5);
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-popup {
+  width: 400px;
+  background-color: white;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.form-field {
+  flex: 1;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px
+}
+.add-user {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  background-color: rgb(134, 236, 134);
+  border: none;
+  padding: 6px;
+  border-radius: 5px;
+}
